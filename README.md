@@ -19,13 +19,13 @@ composer require cline/enums
 
 ## Documentation
 
-- **[Getting Started](cookbook/getting-started.md)** - Installation and basic usage
-- **[Quick Reference](cookbook/quick-reference.md)** - Overview of all features with examples
-- **[InvokableCases](cookbook/invokable-cases.md)** - Get enum values without ->value
-- **[Collections](cookbook/collections.md)** - Names, values, and options methods
-- **[Instantiation](cookbook/instantiation.md)** - Enhanced from() and fromName() methods
-- **[Metadata](cookbook/metadata.md)** - Add custom properties to enum cases
-- **[Comparable](cookbook/comparable.md)** - Compare enum instances with is(), in()
+- **[Getting Started](DOCS.md#doc-docs-readme)** - Installation and basic usage
+- **[Quick Reference](DOCS.md#doc-docs-quick-reference)** - Overview of all features with examples
+- **[InvokableCases](DOCS.md#doc-docs-invokable-cases)** - Get enum values without ->value
+- **[Collections](DOCS.md#doc-docs-collections)** - Names, values, and options methods
+- **[Instantiation](DOCS.md#doc-docs-instantiation)** - Enhanced from() and fromName() methods
+- **[Metadata](DOCS.md#doc-docs-metadata)** - Add custom properties to enum cases
+- **[Comparable](DOCS.md#doc-docs-comparable)** - Compare enum instances with is(), in()
 
 ## Change log
 

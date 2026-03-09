@@ -1,12 +1,14 @@
 ## Table of Contents
 
-1. Getting Started (`docs/README.md`)
-2. Quick Reference (`docs/quick-reference.md`)
-3. InvokableCases (`docs/invokable-cases.md`)
-4. Collections (`docs/collections.md`)
-5. Instantiation (`docs/instantiation.md`)
-6. Metadata (`docs/metadata.md`)
-7. Comparable (`docs/comparable.md`)
+1. [Getting Started](#doc-docs-readme) (`docs/README.md`)
+2. [Quick Reference](#doc-docs-quick-reference) (`docs/quick-reference.md`)
+3. [InvokableCases](#doc-docs-invokable-cases) (`docs/invokable-cases.md`)
+4. [Collections](#doc-docs-collections) (`docs/collections.md`)
+5. [Instantiation](#doc-docs-instantiation) (`docs/instantiation.md`)
+6. [Metadata](#doc-docs-metadata) (`docs/metadata.md`)
+7. [Comparable](#doc-docs-comparable) (`docs/comparable.md`)
+<a id="doc-docs-readme"></a>
+
 A collection of enum helpers for PHP that enhance native PHP enums with powerful features and utilities.
 
 ## Requirements
@@ -47,13 +49,15 @@ TaskStatus::values(); // [0, 1, 2]
 
 ## Available Traits
 
-- **[InvokableCases](./invokable-cases.md)** - Get enum values by invoking cases
-- **[Names](./collections#names.md)** - Get list of case names
-- **[Values](./collections#values.md)** - Get list of case values
-- **[Options](./collections#options.md)** - Get associative arrays for forms
-- **[From](./instantiation.md)** - Enhanced instantiation methods
-- **[Metadata](./metadata.md)** - Add custom properties to cases
-- **[Comparable](./comparable.md)** - Compare enum instances
+- **[InvokableCases](#doc-docs-invokable-cases)** - Get enum values by invoking cases
+- **[Names](#)** - Get list of case names
+- **[Values](#)** - Get list of case values
+- **[Options](#)** - Get associative arrays for forms
+- **[From](#doc-docs-instantiation)** - Enhanced instantiation methods
+- **[Metadata](#doc-docs-metadata)** - Add custom properties to cases
+- **[Comparable](#doc-docs-comparable)** - Compare enum instances
+
+<a id="doc-docs-quick-reference"></a>
 
 This page provides a quick overview of the main features available in the enums package.
 
@@ -94,12 +98,14 @@ $status->in([Status::Draft, Status::Published]); // true
 
 ## See Also
 
-- **[Getting Started](./README.md)** - Installation and basic usage
-- **[InvokableCases](./invokable-cases.md)** - Get enum values without ->value
-- **[Collections](./collections.md)** - Names, values, and options methods
-- **[Instantiation](./instantiation.md)** - Enhanced from() and fromName() methods
-- **[Metadata](./metadata.md)** - Add custom properties to enum cases
-- **[Comparable](./comparable.md)** - Compare enum instances with is(), in()
+- **[Getting Started](#doc-docs-readme)** - Installation and basic usage
+- **[InvokableCases](#doc-docs-invokable-cases)** - Get enum values without ->value
+- **[Collections](#doc-docs-collections)** - Names, values, and options methods
+- **[Instantiation](#doc-docs-instantiation)** - Enhanced from() and fromName() methods
+- **[Metadata](#doc-docs-metadata)** - Add custom properties to enum cases
+- **[Comparable](#doc-docs-comparable)** - Compare enum instances with is(), in()
+
+<a id="doc-docs-invokable-cases"></a>
 
 Get the value of a backed enum, or the name of a pure enum, by invoking it statically (`MyEnum::FOO()`) or as an instance (`$enum()`).
 
@@ -214,6 +220,8 @@ InvokableCases provides full IDE autocompletion. Add parentheses to convert sugg
 MyEnum::FOO;   // MyEnum instance (IDE autocompletes)
 MyEnum::FOO(); // Primitive value (add parentheses)
 ```
+
+<a id="doc-docs-collections"></a>
 
 Traits for getting collections of enum names, values, and options.
 
@@ -392,6 +400,8 @@ public function updateStatus(int $status): void
 }
 ```
 
+<a id="doc-docs-instantiation"></a>
+
 Enhanced methods for creating enum instances from values and names.
 
 ## Overview
@@ -529,6 +539,8 @@ $roles = array_map(
     $caseNames
 );
 ```
+
+<a id="doc-docs-metadata"></a>
 
 Add custom properties and behaviors to enum cases using attributes.
 
@@ -792,6 +804,8 @@ enum TaskStatus: int
     // ...
 }
 ```
+
+<a id="doc-docs-comparable"></a>
 
 Compare enum instances using convenient methods.
 
