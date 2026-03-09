@@ -1,12 +1,12 @@
 ## Table of Contents
 
-1. [Getting Started](#doc-docs-readme) (`docs/README.md`)
-2. [Quick Reference](#doc-docs-quick-reference) (`docs/quick-reference.md`)
-3. [InvokableCases](#doc-docs-invokable-cases) (`docs/invokable-cases.md`)
-4. [Collections](#doc-docs-collections) (`docs/collections.md`)
-5. [Instantiation](#doc-docs-instantiation) (`docs/instantiation.md`)
-6. [Metadata](#doc-docs-metadata) (`docs/metadata.md`)
-7. [Comparable](#doc-docs-comparable) (`docs/comparable.md`)
+1. [Getting Started](#doc-docs-readme)
+2. [Quick Reference](#doc-docs-quick-reference)
+3. [InvokableCases](#doc-docs-invokable-cases)
+4. [Collections](#doc-docs-collections)
+5. [Instantiation](#doc-docs-instantiation)
+6. [Metadata](#doc-docs-metadata)
+7. [Comparable](#doc-docs-comparable)
 <a id="doc-docs-readme"></a>
 
 A collection of enum helpers for PHP that enhance native PHP enums with powerful features and utilities.
